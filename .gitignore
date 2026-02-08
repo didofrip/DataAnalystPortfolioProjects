@@ -1,0 +1,14 @@
+.idea/
+
+~$*.xlsx
+
+**/backup/
+**/Clean Data/
+**/Raw Data/
+
+**/Power BI/
+
+*.html
+
+venv/
+env/
