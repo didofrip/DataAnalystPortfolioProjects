@@ -2,7 +2,7 @@
 
 **Author:** Yaroslav Pryimak  
 **Location:** Ukraine  
-**Contact:** | [Email](mailto:yaroslavpryimak68@gmail.com)
+**Contact:** | yaroslavpryimak68@gmail.com
 
 ## 👋 About Me
 Hi! I am an aspiring Data Analyst building a portfolio of projects using **SQL, Python, Excel, Power BI, and Tableau**. 
