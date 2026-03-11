@@ -2,7 +2,9 @@
 
 **Author:** Yaroslav Pryimak  
 **Location:** Ukraine  
-**Contact:** yaroslavpryimak68@gmail.com | [@didofrip](https://t.me/didofrip)
+**Contact:** 
+* Gmail: yaroslavpryimak68@gmail.com  
+* Telegram: [@didofrip](https://t.me/didofrip) 
 
 ## 👋 About Me
 Hi! I am an aspiring Data Analyst building a portfolio of projects using **SQL, Python, Excel, Power BI, and Tableau**. 
