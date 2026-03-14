@@ -109,21 +109,23 @@ SELECT
     
     -- Calculate % of orders that were late
     ROUND(AVG(CASE 
-        WHEN o.order_delivered_customer_date > o.order_estimated_delivery_date THEN 1 
+        WHEN DATE(o.order_delivered_customer_date) > DATE(o.order_estimated_delivery_date) THEN 1 
         ELSE 0 
     END) * 100, 2) AS delay_rate_pct,
     
     -- Calculate average delay only for late orders
     ROUND(AVG(CASE 
-        WHEN o.order_delivered_customer_date > o.order_estimated_delivery_date 
-        THEN DATEDIFF(o.order_delivered_customer_date, o.order_estimated_delivery_date)
+        WHEN DATE(o.order_delivered_customer_date) > DATE(o.order_estimated_delivery_date) 
+        THEN DATEDIFF(DATE(o.order_delivered_customer_date), DATE(o.order_estimated_delivery_date))
         ELSE NULL 
     END), 1) AS avg_delay_days
-
 FROM fact_orders o
-JOIN fact_order_items oi ON o.order_id = oi.order_id
-JOIN dim_sellers s ON oi.seller_id = s.seller_id
-JOIN dim_customers c ON o.customer_id = c.customer_id
+JOIN fact_order_items oi 
+	ON o.order_id = oi.order_id
+JOIN dim_sellers s 
+	ON oi.seller_id = s.seller_id
+JOIN dim_customers c 
+	ON o.customer_id = c.customer_id
 WHERE o.order_status = 'delivered'
 GROUP BY route
 HAVING total_orders > 10 -- Filter out rare routes to focus on statistically significant ones
