@@ -1,12 +1,12 @@
-**E-Commerce Performance & Logistics Analysis (Olist Dataset)**
+# **E-Commerce Performance & Logistics Analysis (Olist Dataset)**
 
-**Project Overview**
+# Project Overview
 
 This project presents a comprehensive data analysis of the Brazilian e-commerce marketplace, Olist. The main goal is to investigate key business performance indicators (GMV, AOV), identify logistics bottlenecks, and analyze customer satisfaction using text analysis of reviews.
 
 The dashboard was developed in Power BI and consists of four interactive pages connected by a seamless navigation panel: Sales, Logistics, Quality, and Decomposition.
 
-**Tools & Technologies**
+# Tools & Technologies
 - **Tool**: Power BI Desktop
 
 - **Data Modeling**: Built a Star Schema (1-to-many relationships, configured BI-directional cross-filtering).
@@ -19,8 +19,8 @@ The dashboard was developed in Power BI and consists of four interactive pages c
 
 - **Interactivity**: Field Parameters (dynamic metric switching), Bookmarks & Page Navigation, AI-driven Decomposition Tree.
 
-**Key Insights**
-1. Sales Performance
+# Key Insights
+**1. Sales Performance**
 - Total Sales amount to \$13.59M, with an Average Order Value (AOV) of $136.68.
 
 - The lion's share of sales and orders (over 40k) comes from the state of São Paulo (SP).
@@ -31,7 +31,8 @@ The dashboard was developed in Power BI and consists of four interactive pages c
 
     ![Sales Performance](Visualization/PowerBI-1.Sales.png)
 
-2. Logistics & Delivery
+
+**2. Logistics & Delivery**
 - Overall, logistics perform well: 90.45% of orders are delivered on time. The national average delivery time is 12.5 days.
 
 - However, critical issues were identified on specific routes. For example, the MA -> ES route has a catastrophic delay rate of over 46%.
@@ -40,7 +41,8 @@ The dashboard was developed in Power BI and consists of four interactive pages c
 
     ![Logistics & Delivery](Visualization/PowerBI-2.Logistics.png)
 
-3. Quality & Customer Experience
+
+**3. Quality & Customer Experience**
 - The overall satisfaction rating is 77.1% (5-4 scores) with an average score of 4.09.
 
 - **Text Mining Insight**: By parsing review text and filtering out stop-words, it was discovered that low ratings (1-2 stars) are predominantly not related to the product quality itself. The most common keywords in negative reviews are: "aguardando" (waiting), "contato" (contact), and "quero" (want [a refund]). This strongly indicates issues with communication and customer support during delivery delays.
@@ -49,7 +51,8 @@ The dashboard was developed in Power BI and consists of four interactive pages c
 
     ![Quality & Customer Experience](Visualization/PowerBI-3.Quality.png)
 
-4. Root Cause Analysis (Decomposition Tree)
+
+**4. Root Cause Analysis (Decomposition Tree)**
 - Developed a dynamic page based on the Decomposition Tree visual. Users can select a specific metric (AOV, Total Sales, Avg Delivery Days, etc.) with a single click and leverage built-in AI to expand the tree, instantly finding the states, cities, or product categories that impact the result the most.
 
     ![Decomposition Tree](Visualization/PowerBI-4.Decomposition_Tree.png)
