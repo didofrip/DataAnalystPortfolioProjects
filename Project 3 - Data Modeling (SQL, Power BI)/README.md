@@ -1,12 +1,12 @@
 # **E-Commerce Performance & Logistics Analysis (Olist Dataset)**
 
-# Project Overview
+## Project Overview
 
 This project presents a comprehensive data analysis of the Brazilian e-commerce marketplace, Olist. The main goal is to investigate key business performance indicators (GMV, AOV), identify logistics bottlenecks, and analyze customer satisfaction using text analysis of reviews.
 
 The dashboard was developed in Power BI and consists of four interactive pages connected by a seamless navigation panel: Sales, Logistics, Quality, and Decomposition.
 
-# Tools & Technologies
+## Tools & Technologies
 - **Tool**: Power BI Desktop
 
 - **Data Modeling**: Built a Star Schema (1-to-many relationships, configured BI-directional cross-filtering).
@@ -19,7 +19,7 @@ The dashboard was developed in Power BI and consists of four interactive pages c
 
 - **Interactivity**: Field Parameters (dynamic metric switching), Bookmarks & Page Navigation, AI-driven Decomposition Tree.
 
-# Key Insights
+## Key Insights
 **1. Sales Performance**
 - Total Sales amount to \$13.59M, with an Average Order Value (AOV) of $136.68.
 
