@@ -35,15 +35,15 @@ This repository showcases my practical work demonstrating my ability to:
     * **HR Payroll Analysis:** Automated data cleaning and mapping using complex functions (**XLOOKUP, Nested IFs**).
 
 ### 🗺️ [Project 3: Data Modeling & Dashboard (SQL + Power BI)](./Project%203%20-%20Data%20Modeling%20(SQL%2C%20Power%20BI))
-**Goal:** Build a robust data model and an advanced interactive analytics solution for a Brazilian E-commerce marketplace..
+**Goal:** Build a robust data model and an advanced interactive analytics solution for a Brazilian E-commerce marketplace.
 * **Tech Stack:** SQL, Power BI (DAX, Power Query, Field Parameters, Data Modeling).
 * **Key Achievement:** Transformed fragmented data into a Star Schema, implemented dynamic metric switching, and utilized Left Anti-Joins in Power Query for text mining of customer reviews.
 
-### 📍 [Project 2: Airbnb Data Exploration (SQL + Tableau)](./Project%202%20-%20Data%20Exploration%20(SQL%2C%20Tableau))
-**Goal:** Explore pricing trends and availability of Airbnb listings in London.
-* **Tech Stack:** SQL (Data Exploration), Tableau (Geospatial Mapping).
-* **Key Achievement:** Cleaned data via SQL and created an interactive map dashboard to filter listings by price and rating.
-* [View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/yaroslav.pryimak/viz/AirbnbLondonAnalysis/AirbnbLondon)
+### 📍 [Project 2: Airbnb Real Estate Investment Analysis (SQL + Tableau)](./Project%202%20-%20Data%20Exploration%20(SQL%2C%20Tableau))
+**Goal:** Analyze the London short-term rental market to identify high-ROI real estate investment opportunities and optimal rental strategies.
+* **Tech Stack:** MySQL (End-to-End ETL, Regex, Data Optimization), Tableau Desktop (Choropleth Mapping, Advanced UI).
+* **Key Achievement:** Built an end-to-end ETL pipeline to clean and backfill 35M+ rows of data, exported optimized TSV files for faster Tableau rendering, and developed an interactive dashboard delivering strategic recommendations on property location, sizing, and rental models.
+* [View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/AirbnbLondonAnalysis/AirbnbLondonAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ### 🧹 [Project 1: CRM Data Cleaning (SQL)](./Project%201%20-%20Data%20Cleaning%20(SQL))
 **Goal:** Standardize a raw CRM database for further analysis.
