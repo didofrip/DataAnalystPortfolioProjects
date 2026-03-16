@@ -35,9 +35,9 @@ This repository showcases my practical work demonstrating my ability to:
     * **HR Payroll Analysis:** Automated data cleaning and mapping using complex functions (**XLOOKUP, Nested IFs**).
 
 ### 🗺️ [Project 3: Data Modeling & Dashboard (SQL + Power BI)](./Project%203%20-%20Data%20Modeling%20(SQL%2C%20Power%20BI))
-**Goal:** Build a Star Schema model and an interactive dashboard for Olist E-commerce data.
-* **Tech Stack:** SQL (Data Transformation), Power BI (DAX, Modeling).
-* **Key Achievement:** Transformed raw CSVs into a structured Fact/Dimension model and visualized KPIs like Revenue, Delivery Time, and Customer Satisfaction.
+**Goal:** Build a robust data model and an advanced interactive analytics solution for a Brazilian E-commerce marketplace..
+* **Tech Stack:** SQL, Power BI (DAX, Power Query, Field Parameters, Data Modeling).
+* **Key Achievement:** Transformed fragmented data into a Star Schema, implemented dynamic metric switching, and utilized Left Anti-Joins in Power Query for text mining of customer reviews.
 
 ### 📍 [Project 2: Airbnb Data Exploration (SQL + Tableau)](./Project%202%20-%20Data%20Exploration%20(SQL%2C%20Tableau))
 **Goal:** Explore pricing trends and availability of Airbnb listings in London.
